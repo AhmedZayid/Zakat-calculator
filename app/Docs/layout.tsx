@@ -30,13 +30,13 @@ const page = ({ children }: { children: ReactNode }) => {
           {Livestock && (
             <ul className="list-none pl-6 font-light text-[#e5dfdf]  text-[1rem] my-2">
               <li>
-                <Link href={"/camel"}>Camel</Link>
+                <Link href={"/Docs/Livestock#camel"}>Camel</Link>
               </li>
               <li>
-                <Link href={"/cattle"}>Cattle</Link>
+                <Link href={"/Docs/Livestock#cattle"}>Cattle</Link>
               </li>
               <li>
-                <Link href={"/"}>Goats and sheeps</Link>
+                <Link href={"/Docs/Livestock#Goats-sheep"}>Goats and sheeps</Link>
               </li>
             </ul>
           )}
